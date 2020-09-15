@@ -2,6 +2,16 @@
 # General
 --------------------------------------------------------------*/
 
+@font-face {
+    font-family: 'Quatum';
+    src: url('../vendor/boxicons/fonts/quantum-4.otf');
+}
+
+@font-face {
+    font-family: 'Bankgotik';
+    src: url('../vendor/boxicons/fonts/Bank\ Gothic\ Light\ Regular.otf');
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
@@ -22,7 +32,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;
+    /* font-family: "Raleway", sans-serif; */
+    font-family: "Quatum", sans-serif;
 }
 
 

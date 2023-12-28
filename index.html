@@ -55,9 +55,9 @@
                     <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
                     <li><a href="#about"><i class="bx bx-user"></i> <span>Acerca</span></a></li>
                     <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resumen</span></a></li>
-                    <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portafolio</a></li>
-                    <li><a href="#services"><i class="bx bx-server"></i> Servicios</a></li>
-                    <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li>
+                    <!-- <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portafolio</a></li> -->
+                    <!-- <li><a href="#services"><i class="bx bx-server"></i> Servicios</a></li> -->
+                    <!-- <li><a href="#contact"><i class="bx bx-envelope"></i> Contacto</a></li> -->
 
                 </ul>
             </nav>
@@ -260,7 +260,7 @@
                             </em></p>
                             <p>Cértificaciones</p>
                             <ul>
-                                <li><strong><em>Próximamente</em></strong> ... <em>Technical Support Fundamental for Google</em></li>
+                                <li>Curso de Introducción a AWS: Fundamentos de Cloud Computing <strong>Platzi</strong> - <em id="platzi_aws"></em></li>
                                 <li>Web Development Enginner (<strong>AWS Educate</strong>) - <em id="aws"></em></li>
                                 <li>Docker de principiante a experto (<strong>Udemy</strong>) - <em id="docker"></em></li>
                                 <li>Desarrollo de Apps Móviles (<strong>Google Actívate</strong>) - <em id="google"></em></li>
@@ -701,12 +701,14 @@
 
     <script>
         moment.locale('es')
+        platzi_aws = moment("20230110", "YYYYMMDD").fromNow()
         aws_1 = moment("20200820", "YYYYMMDD").fromNow()
         docker_1 = moment("20200804", "YYYYMMDD").fromNow()
         google_1 = moment("20190731", "YYYYMMDD").fromNow()
         eset_1 = moment("20190624","YYYYMMDD").fromNow()
         isaca_1 = moment("20180526", "YYYYMMDD").fromNow()
 
+        document.getElementById("platzi_aws").innerHTML = platzi_aws
         document.getElementById("aws").innerHTML = aws_1
         document.getElementById("docker").innerHTML = docker_1
         document.getElementById("google").innerHTML = google_1
